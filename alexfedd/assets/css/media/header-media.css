@@ -1,0 +1,31 @@
+@media (max-width: 1439px) {
+  .nav-bar .navigation {
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    top: 0;
+    right: -375px;
+    bottom: 0;
+    background-color: #101126;
+    width: 375px;
+    padding: 50px 30px;
+  }
+  .nav-bar .navigation li {
+    font-size: 32px;
+  }
+  .nav-bar .navigation .close-btn {
+    display: block;
+  }
+  .nav-bar .nav-btn {
+    display: block;
+  }
+}
+@media (max-width: 424px) {
+  .nav-bar {
+    padding: 0 10px;
+  }
+  .nav-bar .navigation {
+    right: -320px;
+    width: 320px;
+  }
+}/*# sourceMappingURL=header-media.css.map */

@@ -1,0 +1,161 @@
+.blur-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(4px);
+  transition: all 0.2s ease-in;
+}
+.blur-btn:hover {
+  filter: blur(6px);
+}
+
+main .portfolio .more, main .portfolio .portfolios .portfolio-card .read-more {
+  transition: all 0.2s ease-in;
+  position: relative;
+  top: 0;
+}
+main .portfolio .more:hover, main .portfolio .portfolios .portfolio-card .read-more:hover {
+  transition: all 0.2s ease-in;
+  top: -3px;
+}
+main .portfolio .more:active, main .portfolio .portfolios .portfolio-card .read-more:active {
+  transition: all 0.2s ease-in;
+  top: 0px;
+}
+
+main .portfolio .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+main .portfolio .portfolios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+main .portfolio .portfolios .portfolio-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  padding: 40px 50px;
+  max-width: 1112px;
+  width: 1112px;
+  min-height: 620px;
+	overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+}
+main .portfolio .portfolios .portfolio-card .card-bg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+	filter: blur(5px);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+main .portfolio .portfolios .portfolio-card::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(109.46deg, #0F1023 0%, #1C1134 100%);
+  opacity: 0.9;
+  border-radius: 20px;
+}
+main .portfolio .portfolios .portfolio-card::before {
+  content: "";
+  z-index: -3;
+  position: absolute;
+  width: 1094px;
+  left: calc(50% - 547px);
+  top: -169px;
+  bottom: -168px;
+  background: #1A103F;
+  filter: blur(125px);
+  transform: rotate(-11.49deg);
+}
+main .portfolio .portfolios .portfolio-card h3 {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  /* identical to box height, or 48px */
+  letter-spacing: 0.02em;
+}
+main .portfolio .portfolios .portfolio-card .portfolio-card-info {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 80px;
+  min-height: 300px
+}
+main .portfolio .portfolios .portfolio-card .portfolio-card-info p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  letter-spacing: 0.02em;
+  max-width: 510px;
+  text-align: justify;
+}
+main .portfolio .portfolios .portfolio-card .portfolio-card-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main .portfolio .portfolios .portfolio-card .portfolio-card-info ul li {
+  list-style-type: disc;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+main .portfolio .portfolios .portfolio-card .read-more {
+  align-self: center;
+  position: relative;
+  z-index: 2;
+}
+main .portfolio .portfolios .portfolio-card .read-more .read-more-btn {
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+  letter-spacing: 0.02em;
+  color: #6842FD;
+  padding: 25px 40px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 4px solid #6842FD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+main .portfolio .more {
+  position: relative;
+  align-self: center;
+}
+main .portfolio .more .more-btn {
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+  letter-spacing: 0.02em;
+  color: #6842FD;
+  padding: 25px 40px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 4px solid #6842FD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}/*# sourceMappingURL=porfolio-card.css.map */

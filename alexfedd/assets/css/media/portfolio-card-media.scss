@@ -1,0 +1,108 @@
+@media (max-width: 1439px) {
+    main {
+        .portfolio {
+            .portfolios {
+                .portfolio-card {
+                    max-width: 803px;
+    
+                    .portfolio-card-info {
+                        p {
+                            max-width: 394px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    main {
+        .portfolio {
+            .portfolios {
+                .portfolio-card {
+                    padding: 40px ;
+                    max-width: 648px;
+                    gap: 40px;
+                    h3 {
+                        font-size: 40px;
+                    }
+
+                    .portfolio-card-info {
+                        gap: 0;
+                        justify-content: space-between;
+                        p {
+                            max-width: 369px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    main {
+        .portfolio {
+
+            .container {
+                gap: 50px;
+            }
+
+            .portfolios {
+                gap: 50px;
+
+                .portfolio-card {
+                    padding: 40px 20px;
+                    max-width: 350px;
+                    gap: 20px;
+
+                    &::before {
+                        top: -80px;
+                        bottom: -80px;
+                        width: 425px;
+                    }
+
+                    h3 {
+                        font-size: 32px;
+                    }
+
+                    .portfolio-card-info {
+                        ul {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .more {
+                .more-btn {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    main {
+        .portfolio {
+            .portfolios {
+                .portfolio-card {
+                    max-width: 280px;
+
+                    .read-more {
+                        .read-more-btn {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+
+            .more {
+                .more-btn {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

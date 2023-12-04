@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: alexfedd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-05 14:38+0000\n"
+"PO-Revision-Date: 2023-06-07 08:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: alexfedd"
+
+msgid "Ваше сообщение"
+msgstr "Your message"
+
+msgid "Все права защищены"
+msgstr "All rights reserved"
+
+msgid "Главная"
+msgstr "Home"
+
+msgid "Заказать"
+msgstr "Order"
+
+msgid "Имя"
+msgstr "Name"
+
+msgid "Информация"
+msgstr "Information"
+
+msgid "Контакты"
+msgstr "Contacts"
+
+msgid "Мои навыки"
+msgstr "My skills"
+
+msgid "Начато"
+msgstr "Started"
+
+msgid "Обо мне"
+msgstr "About me"
+
+msgid "Окончено"
+msgstr "Completed"
+
+msgid "Описание"
+msgstr "Description"
+
+msgid "Отправить"
+msgstr "Send"
+
+msgid "Подробнее"
+msgstr "More"
+
+msgid "Политика конфиденциальности"
+msgstr "Policy privacy"
+
+msgid "Политикой конфиденциальности"
+msgstr "Policy privacy"
+
+msgid "Портфолио"
+msgstr "Portfolio"
+
+msgid "Посмотреть все"
+msgstr "View all"
+
+msgid "Прайс-лист"
+msgstr "Price-list"
+
+msgid "Социальные сети, где вы можете связаться со мной:"
+msgstr "Social media where you can contact me:"
+
+msgid "Спасибо за ваше сообщение!"
+msgstr "Thanks for your message!"
+
+msgid "Стек"
+msgstr "Stack"
+
+msgid "Стоимость"
+msgstr "Cost"
+
+msgid "Услуга"
+msgstr "Service"
+
+msgid "Цена"
+msgstr "Price"
+
+msgid "Я прочитал и согласен с "
+msgstr "I have read and agree to the "

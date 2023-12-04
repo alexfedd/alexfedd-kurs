@@ -1,0 +1,66 @@
+body {
+  position: relative;
+}
+body::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(167.54deg, #1C1E47 17.85%, rgba(26, 27, 64, 0) 87.63%);
+}
+
+header {
+  padding-top: 50px;
+}
+
+main {
+  padding: 70px 0;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+main h2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  /* identical to box height, or 64px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #EFEEFF;
+}
+@media (max-width: 1023px) {
+  main h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 767px) {
+  main h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 424px) {
+  main h2 {
+    word-break: break-all;
+    font-size: 28px;
+  }
+}
+main p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  letter-spacing: 0.02em;
+  color: #EFEEFF;
+}
+main a {
+  text-decoration: underline !important;
+}/*# sourceMappingURL=policy-privacy.css.map */

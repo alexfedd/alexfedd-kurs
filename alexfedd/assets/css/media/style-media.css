@@ -1,0 +1,23 @@
+@media (max-width: 1439px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 425px;
+    padding: 0 30px;
+  }
+}
+@media (max-width: 424px) {
+  .container {
+    max-width: 320px;
+    padding: 0 15px;
+  }
+}/*# sourceMappingURL=style-media.css.map */

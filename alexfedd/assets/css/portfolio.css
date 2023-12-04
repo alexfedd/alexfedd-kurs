@@ -1,0 +1,174 @@
+.blur-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(4px);
+  transition: all 0.2s ease-in;
+}
+.blur-btn:hover {
+  filter: blur(6px);
+}
+
+header .header-info .call-btn {
+  transition: all 0.2s ease-in;
+  position: relative;
+  top: 0;
+}
+header .header-info .call-btn:hover {
+  transition: all 0.2s ease-in;
+  top: -3px;
+}
+header .header-info .call-btn:active {
+  transition: all 0.2s ease-in;
+  top: 0px;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0 97px;
+  background: linear-gradient(95.75deg, #1C1E47 27.87%, rgba(26, 27, 64, 0) 96.59%);
+}
+header .container {
+  flex: 0 0 100%;
+}
+header .laptops {
+  z-index: 2;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  right: calc(50% - 1039.0260869565px);
+  bottom: 0;
+}
+header .laptops .notebook-second, header .laptops .notebook-first {
+  position: relative;
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.47));
+}
+header .laptops .notebook-second .laptop-wrapper, header .laptops .notebook-first .laptop-wrapper {
+  position: relative;
+  z-index: 2;
+}
+header .laptops .notebook-second .laptop-content, header .laptops .notebook-first .laptop-content {
+  z-index: 1;
+  position: absolute;
+  top: 5%;
+  left: 11%;
+  width: 80%;
+}
+header .laptops .notebook-first {
+  position: relative;
+  z-index: 3;
+  width: 935px;
+  position: relative;
+  filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.47));
+}
+header .laptops .notebook-second {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: -270px;
+  width: 748px;
+}
+header .laptops .blur {
+  position: absolute;
+  z-index: 1;
+}
+header .laptops .purple {
+  width: 472px;
+  height: 309px;
+  top: -50px;
+  left: -150px;
+  background: rgba(169, 36, 190, 0.5);
+  filter: blur(130px);
+}
+header .laptops .blue {
+  width: 1001px;
+  height: 309px;
+  z-index: 0;
+  top: -50px;
+  left: -150px;
+  background: #1A2588;
+  filter: blur(130px);
+  transform: rotate(-4.45deg);
+}
+header .laptops .cyan {
+  width: 472px;
+  height: 233px;
+  bottom: 0px;
+  left: -320px;
+  background: rgba(0, 240, 255, 0.3);
+  filter: blur(130px);
+}
+header .header-info {
+  z-index: 3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  margin-top: 60px;
+}
+header .header-info::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background: rgba(169, 36, 190, 0.2);
+  filter: blur(130px);
+  top: 100px;
+  left: -150px;
+  width: 530px;
+  height: 312px;
+}
+header .header-info .header-descr h1 {
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 90px;
+  letter-spacing: 0.02em;
+}
+header .header-info .header-descr p {
+  margin-top: 35px;
+  max-width: 383px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+header .header-info .call-btn {
+  align-self: flex-start;
+  position: relative;
+}
+header .header-info .call-btn a {
+  display: inline-flex;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  /* identical to box height, or 32px */
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  color: #6842FD;
+  padding: 25px 40px;
+  border: 4px solid #6842FD;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+header .header-info .call-btn .blur-btn {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  filter: blur(4px);
+  background: linear-gradient(92.42deg, #663FBE 23.06%, #3C72B5 66.24%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.2s ease-in;
+}
+header .header-info .call-btn .blur-btn:hover {
+  filter: blur(6px);
+}
+
+main {
+  overflow: hidden;
+  padding: 120px 0;
+}/*# sourceMappingURL=portfolio.css.map */

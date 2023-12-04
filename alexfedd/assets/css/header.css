@@ -1,0 +1,151 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar .lang {
+  display: flex;
+  background: #1F204A;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  gap: 4px;
+  padding: 4px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.nav-bar .lang .ru-btn, .nav-bar .lang .en-btn {
+  cursor: pointer;
+  padding: 11.5px 9px;
+  text-shadow: 0px 0px 10px rgba(67, 67, 67, 0.25);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #22234D;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.nav-bar .lang .ru-btn:hover, .nav-bar .lang .en-btn:hover {
+  color: #9c95ff;
+}
+.nav-bar .lang .active {
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+  color: #BABABA;
+  background-color: #1A1B40;
+}
+.nav-bar .navigation {
+  display: flex;
+  gap: 40px;
+  transition: all 0.4s ease-out;
+}
+.nav-bar .navigation li {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+}
+.nav-bar .navigation li a {
+  position: relative;
+  z-index: 0;
+  transition: all 0.4s ease-in-out;
+}
+.nav-bar .navigation li a:hover {
+  color: #9c95ff;
+}
+.nav-bar .navigation li a:hover::after {
+  transform: scale(1);
+}
+.nav-bar .navigation li a:hover::before {
+  transform: scale(1);
+}
+.nav-bar .navigation li a::before {
+  transition: all 0.4s ease-in-out;
+  transform-origin: right;
+  position: absolute;
+  content: "";
+  z-index: 2;
+  border-radius: 1px;
+  height: 3px;
+  top: 0;
+  right: 0;
+  width: 100%;
+  transform: scale(0, 1);
+  background-color: #9c95ff;
+}
+.nav-bar .navigation li a::after {
+  transition: all 0.4s ease-in-out;
+  transform-origin: left;
+  position: absolute;
+  border-radius: 1px;
+  content: "";
+  z-index: 2;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: scale(0, 1);
+  background-color: #9c95ff;
+}
+.nav-bar .navigation .close-btn {
+  transition: all 0.2s ease-in;
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.nav-bar .navigation .close-btn::before {
+  transition: all 0.2s ease-in;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: blur(4px);
+  background-image: url(../img/close.svg);
+  background-repeat: no-repeat;
+}
+.nav-bar .navigation .close-btn:hover {
+  transform: scale(1.04);
+}
+.nav-bar .navigation .close-btn:hover::before {
+  filter: blur(6px);
+}
+.nav-bar .navigation .close-btn:active {
+  transform: scale(1);
+}
+.nav-bar .navigation .close-btn:active::before {
+  filter: blur(4px);
+}
+.nav-bar .open {
+  right: 0 !important;
+}
+.nav-bar .nav-btn {
+  position: relative;
+  display: none;
+  transition: all 0.2s ease-in;
+}
+.nav-bar .nav-btn::before {
+  transition: all 0.2s ease-in;
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(../img/ham.svg);
+  filter: blur(4px);
+}
+.nav-bar .nav-btn:hover {
+  transform: scale(1.04);
+}
+.nav-bar .nav-btn:hover::before {
+  filter: blur(6px);
+}
+.nav-bar .nav-btn:active {
+  transform: scale(1);
+}
+.nav-bar .nav-btn:active::before {
+  filter: blur(4px);
+}/*# sourceMappingURL=header.css.map */

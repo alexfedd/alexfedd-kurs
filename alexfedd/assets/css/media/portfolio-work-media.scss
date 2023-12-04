@@ -1,0 +1,233 @@
+@media (max-width:1439px) {
+    header {
+        padding: 40px 0 110px;
+        .header-info {
+            margin-top: 80px;
+            gap: 50px;
+            h2 {
+                font-size: 80px;
+                line-height: 100%;
+            }
+            .header-descr {
+                gap: unset;
+                justify-content: space-between;
+                .stack-info ul {
+                    flex-direction: column;
+                }
+                .project-main-info {
+                    width: 455px;
+                }
+            }
+        }
+    }
+
+    main {
+        .slider-block {
+            padding: 60px 0;
+
+            .slider {
+                width: 903px;
+                height: 565px;
+
+                .slider-button {
+                    width: 176px;
+                    $width: 70px;
+                    $height: 85px;
+                    img {
+                        width: $width;
+                        height: $height;
+                    }
+                    .blur-btn {
+                        position: absolute;
+                        z-index: -1;
+                        top: calc(50% - ($height / 2));
+                        left: calc(50% - ($width / 2));
+                        filter: blur(4px);
+                        object-position: center center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 40px 0 100px;
+        .header-info {
+            margin-top: 60px;
+            h2 {
+                font-size: 64px;
+            }
+            .header-descr {
+                h3 {
+                    font-size: 32px;
+                }
+                ul {
+                    margin-top: 20px;
+                    li {
+                        font-size: 24px;
+                    }
+                }
+                .project-main-info {
+                    width: 376px;
+                }
+            }
+        }
+    }
+
+    main {
+        gap: 100px;
+        .main-descr {
+            .container {
+                gap: 50px;
+            }
+            h3 {
+                font-size: 48px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .slider-block {
+            .slider {
+                width: 648px;
+                height: 405.45px;
+                .slider-button {
+                    width: 104.05px;
+                    $width: 50.23px;;
+                    $height: 61.5px;
+                    img {
+                        width: $width;
+                        height: $height;
+                    }
+                    .blur-btn {
+                        position: absolute;
+                        z-index: -1;
+                        top: calc(50% - ($height / 2));
+                        left: calc(50% - ($width / 2));
+                        filter: blur(4px);
+                        object-position: center center;
+                    }
+
+                }
+            }
+            .slider-dots-container {
+                .slider-dot {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 30px 0 80px;
+        .header-info {
+            margin-top: 50px;
+            gap: 40px;
+            h2 {
+                font-size: 48px;
+            }
+
+            .header-descr {
+                justify-content: unset;
+                flex-direction: column;
+                gap: 30px;
+                .project-main-info {
+                    width: 100%;
+                    ul {
+                        justify-content: space-between;
+                        li {
+                            flex-basis: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        padding-top: 60px;
+        .main-descr {
+            h3 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+        .slider-block {
+            padding: 50px 0 60px;
+            gap: 15px;
+            .slider {
+                width: 425px;
+                height: 265.92px;
+                .slider-button {
+                    width: 68.24px;
+                    $width: 32.95px;
+                    $height: 40.27px;
+                    img {
+                        width: $width;
+                        height: $height;
+                    }
+                    .blur-btn {
+                        position: absolute;
+                        z-index: -1;
+                        top: calc(50% - ($height / 2));
+                        left: calc(50% - ($width / 2));
+                        filter: blur(4px);
+                        object-position: center center;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    header {
+        .header-info {
+            .header-descr {
+                h3 {
+                    font-size: 24px;
+                }
+                ul {
+                    margin-top: 20px;
+                    li {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        .slider-block {
+            padding: 40px 0 50px;
+            .slider {
+                width: 320px;
+                height: 200.22px;
+                .slider-button {
+                    $width: 24.81px;
+                    $height: 30.32px;
+                    img {
+                        width: $width;
+                        height: $height;
+                    }
+                    .blur-btn {
+                        position: absolute;
+                        z-index: -1;
+                        top: calc(50% - ($height / 2));
+                        left: calc(50% - ($width / 2));
+                        filter: blur(4px);
+                        object-position: center center;
+                    }
+
+                }
+            }
+        }
+    }
+}

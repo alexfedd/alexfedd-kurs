@@ -1,0 +1,39 @@
+
+
+* {
+	font-family: 'Montserrat', sans-serif;
+    color: #EFEEFF;
+    scroll-behavior: smooth;
+  }
+
+// * [data-aos] {
+//     overflow : hidden;
+// }
+
+// * [data-aos="zoom-in"]
+// {
+//     overflow: visible;
+// }
+  
+body {
+  background-color: #101126;
+	display:flex;
+	flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+footer {
+	flex-shrink: 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+
+
+
+

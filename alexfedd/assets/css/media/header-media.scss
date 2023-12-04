@@ -1,0 +1,37 @@
+@media (max-width: 1439px) {
+    .nav-bar {
+        .navigation {
+            $width: 375px !global;
+            position: fixed;
+            z-index: 10;
+            flex-direction: column;
+            top: 0;
+            right: calc(0px - $width);
+            bottom: 0;
+            background-color: #101126;
+            width: $width;
+            padding: 50px 30px;
+            li {
+                font-size: 32px;
+            }
+
+            .close-btn {
+                display: block;
+            }
+        }
+        .nav-btn {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    .nav-bar {
+        padding: 0 10px;
+        .navigation {
+            $width: 320px;
+            right: calc(0px - $width);
+            width: $width;
+        }
+    }
+}

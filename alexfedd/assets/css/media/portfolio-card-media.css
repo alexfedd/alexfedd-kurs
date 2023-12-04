@@ -1,0 +1,64 @@
+@media (max-width: 1439px) {
+  main .portfolio .portfolios .portfolio-card {
+    max-width: 803px;
+	width: unset;
+  }
+  main .portfolio .portfolios .portfolio-card .portfolio-card-info p {
+    max-width: 394px;
+  }
+}
+@media (max-width: 1023px) {
+  main .portfolio .portfolios .portfolio-card {
+    padding: 40px;
+    max-width: 648px;
+    gap: 40px;
+  }
+  main .portfolio .portfolios .portfolio-card h3 {
+    font-size: 40px;
+  }
+  main .portfolio .portfolios .portfolio-card .portfolio-card-info {
+    gap: 0;
+    justify-content: space-between;
+  }
+  main .portfolio .portfolios .portfolio-card .portfolio-card-info p {
+    max-width: 369px;
+  }
+}
+@media (max-width: 767px) {
+  main .portfolio .container {
+    gap: 50px;
+  }
+  main .portfolio .portfolios {
+    gap: 50px;
+  }
+  main .portfolio .portfolios .portfolio-card {
+    padding: 40px 20px;
+    max-width: 350px;
+    gap: 20px;
+  }
+  main .portfolio .portfolios .portfolio-card::before {
+    top: -80px;
+    bottom: -80px;
+    width: 425px;
+  }
+  main .portfolio .portfolios .portfolio-card h3 {
+    font-size: 32px;
+  }
+  main .portfolio .portfolios .portfolio-card .portfolio-card-info ul {
+    display: none;
+  }
+  main .portfolio .more .more-btn {
+    font-size: 30px;
+  }
+}
+@media (max-width: 424px) {
+  main .portfolio .portfolios .portfolio-card {
+    max-width: 280px;
+  }
+  main .portfolio .portfolios .portfolio-card .read-more .read-more-btn {
+    font-size: 24px;
+  }
+  main .portfolio .more .more-btn {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=portfolio-card-media.css.map */

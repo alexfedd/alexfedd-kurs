@@ -1,0 +1,198 @@
+.blur-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(4px);
+
+    transition: all 0.2s ease-in;
+    &:hover {
+        filter: blur(6px);
+    }
+}
+
+%btn-anim {
+    transition: all 0.2s ease-in;
+    position: relative;
+    top: 0;
+    &:hover {
+        transition: all 0.2s ease-in;
+        top: -3px;
+        //transform: translateY(-3px);
+    }
+
+    &:active {
+        transition: all 0.2s ease-in;
+        top: 0px;
+    }
+}
+header {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 97px;
+    background: linear-gradient(95.75deg, #1C1E47 27.87%, rgba(26, 27, 64, 0) 96.59%);
+
+    .container {
+        flex: 0 0 100%;
+    }
+
+    .laptops {
+        z-index: 2;
+        height: fit-content;
+        position: absolute;
+        right: calc(50% - (1194.88px / 1.15));
+        bottom: 0;
+        $laptop_width: 935px;
+
+        %laptop {
+            position: relative;
+            filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.47));
+            .laptop-wrapper {
+                position: relative;
+                z-index: 2;
+            }
+            .laptop-content {
+                z-index: 1;
+                position: absolute;
+                top: 5%;
+                left: 11%;
+                width: 80%;
+            }
+        }
+        .notebook-first {
+            @extend %laptop;
+            position: relative;
+            z-index: 3;
+            width: $laptop_width;
+            position: relative;
+            filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.47));
+        }
+
+        .notebook-second {
+            @extend %laptop;
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+            left: -270px;
+            width: $laptop_width * 0.8;
+        }
+
+        .blur {
+            position: absolute;
+            z-index: 1;
+        }
+
+        .purple {
+            width: 472px;
+            height: 309px;
+            top: -50px;
+            left: -150px;
+            background: rgba(169, 36, 190, 0.5);
+            filter: blur(130px);
+        }
+
+        .blue {
+            width: 1001px;
+            height: 309px;
+            z-index: 0;
+            top: -50px;
+            left: -150px;
+            background: #1A2588;
+            filter: blur(130px);
+            transform: rotate(-4.45deg);
+        }
+
+        .cyan {
+            width: 472px;
+            height: 233px;
+            bottom: 0px;
+            left: -320px;
+            background: rgba(0, 240, 255, 0.3);
+            filter: blur(130px);
+        }
+    }
+
+    .header-info {
+        z-index: 3;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 61px;
+        margin-top: 60px;
+
+        &::before {
+            content: '';
+            z-index: -1;
+            position: absolute;
+            background: rgba(169, 36, 190, 0.2);
+            filter: blur(130px);
+            top: 100px;
+            left: -150px;
+            width: 530px;
+            height: 312px;
+        }
+
+
+        .header-descr {
+
+            h1 {
+                font-weight: 600;
+                font-size: 96px;
+                line-height: 90px;
+                letter-spacing: 0.02em;
+            }
+
+            p {
+                margin-top: 35px;
+                max-width: 383px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.02em;
+            }
+        }
+
+        .call-btn {
+            align-self: flex-start;
+            @extend %btn-anim;
+            position: relative;
+            a {
+                display: inline-flex;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 100%;
+                /* identical to box height, or 32px */
+
+                letter-spacing: 0.02em;
+                box-sizing: border-box;
+                color: #6842FD;
+                padding: 25px 40px;
+                border: 4px solid #6842FD;
+                background: rgba(0, 0, 0, 0.1);
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+            }
+
+            .blur-btn{
+                position: absolute;
+                z-index: 0;
+                left: 0;
+                filter: blur(4px);
+                background: linear-gradient(92.42deg, #663FBE 23.06%, #3C72B5 66.24%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                transition: all 0.2s ease-in;
+                &:hover {
+                    filter: blur(6px);
+                }
+            }
+        }
+    }
+}
+
+main {
+    overflow: hidden;
+    padding: 120px 0;
+}

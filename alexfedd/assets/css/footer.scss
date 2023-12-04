@@ -1,0 +1,89 @@
+footer {
+    padding: 30px 0;
+    position: relative;
+    border-top: 2px solid #6842FD;
+    &::before {
+        content: '';
+        z-index: -1;
+        position: absolute;
+        top: -2px;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-top: 2px solid #6841FD;
+        filter: blur(4px);
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-info {
+            flex: 0 0 66.6%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .footer-nav {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 360px;
+                column-gap: 34px;
+                row-gap: 20px;
+
+                li {
+                    width: 162px;
+                    a {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0.02em;
+                    }
+                }
+            }
+
+            .footer-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 100%;
+                letter-spacing: 0.02em;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .footer-soc-med {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+
+            .soc-med {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                img {
+                    width: 30px;
+                    object-fit: contain;
+                    object-position: center center;
+                }
+
+                a {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 150%;
+                    text-align: center;
+                    letter-spacing: 0.02em;
+                }
+            }
+        }
+    }
+}

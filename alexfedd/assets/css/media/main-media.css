@@ -1,0 +1,237 @@
+@media (max-width: 1439px) {
+  header .laptops {
+    right: calc(50% - 1066.8571428571px);
+  }
+  header .laptops .notebook-second {
+    left: -220px;
+  }
+  header .header-info {
+    gap: 91px;
+  }
+  header .header-info .header-descr h1 {
+    line-height: 100%;
+  }
+  main {
+    padding: 100px 0;
+    gap: 110px;
+  }
+  main .about-me .container {
+    gap: 50px;
+    flex-direction: column;
+    justify-content: unset;
+  }
+  main .my-skills .container {
+    align-items: center;
+    gap: 75px;
+  }
+  main .my-skills .skills {
+    justify-content: center;
+  }
+  main .price-list .price-table {
+    width: 803px;
+  }
+  main .contacts .feedback-form .personal-data input {
+    width: 350px;
+  }
+  main .contacts .feedback-form textarea {
+    width: 749px;
+  }
+}
+@media (max-width: 1023px) {
+  header .laptops {
+    right: calc(50% - 796.5866666667px);
+  }
+  header .laptops .blue {
+    display: none;
+  }
+  header .laptops .purple {
+    left: 0;
+  }
+  header .laptops .cyan {
+    left: -50px;
+  }
+  header .laptops .notebook-second {
+    display: none;
+  }
+  header .laptops .notebook-first {
+    width: 800px;
+  }
+  main .about-me .my-photo::before {
+    bottom: -650px;
+  }
+  main .price-list .price-table {
+    width: 653px;
+  }
+  main .contacts .container {
+    gap: 70px;
+  }
+  main .contacts .feedback-form .personal-data input {
+    width: 300px;
+  }
+  main .contacts .feedback-form textarea {
+    width: 647px;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    padding: 30px 0 376px;
+  }
+  header .laptops {
+    right: calc(50% - 426px);
+  }
+  header .laptops .notebook-first {
+    width: 576px;
+  }
+  header .laptops .notebook-second {
+    display: block;
+    left: -140px;
+    width: 460.8px;
+  }
+  header .laptops .blue {
+    display: block;
+  }
+  header .header-info {
+    gap: 50px;
+    margin-top: 50px;
+  }
+  header .header-info .header-descr h1 {
+    font-size: 48px;
+  }
+  header .header-info .header-descr p {
+    margin-top: 40px;
+  }
+  main {
+    padding: 80px 0 100px;
+    gap: 70px;
+  }
+  main h2 {
+    font-size: 40px;
+  }
+  main .about-me img {
+    width: 365px;
+    height: 365px;
+  }
+  main .about-me .my-photo::before {
+    top: -100px;
+    bottom: unset;
+  }
+  main .my-skills .container {
+    gap: 40px;
+  }
+  main .my-skills .skills {
+    row-gap: 40px;
+  }
+  main .my-skills .skills .skill-card {
+    gap: 20px;
+  }
+  main .my-skills .skills .skill-card h3 {
+    font-size: 36px;
+  }
+  main .portfolio .container {
+    margin-top: 40px;
+  }
+  main .price-list .container {
+    gap: 50px;
+  }
+  main .price-list .big {
+    display: none;
+  }
+  main .price-list .small {
+    left: -100px;
+    top: -200px;
+    width: 812.54px;
+    height: 796.29px;
+  }
+  main .price-list .price-table {
+    width: 365px;
+  }
+  main .price-list .price-table .table-row .table-column {
+    padding: 25px 10px;
+    font-size: 16px;
+  }
+  main .price-list .price-table .table-row:first-child .table-column {
+    font-size: 24px;
+  }
+  main .contacts .container {
+    gap: 50px;
+  }
+  main .contacts .purple-blur {
+    top: 0;
+    left: 0;
+  }
+  main .contacts .feedback-form .personal-data {
+    flex-direction: column;
+    justify-content: unset;
+    gap: 40px;
+  }
+  main .contacts .feedback-form .personal-data input {
+    width: 362px;
+  }
+  main .contacts .feedback-form textarea {
+    width: 362px;
+  }
+  main .contacts .social-media p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 424px) {
+  header .laptops {
+    right: calc(50% - 491.5384615385px);
+  }
+  header .laptops .notebook-second {
+    left: -100px;
+  }
+  header .header-info {
+    margin-top: 50px;
+    gap: 40px;
+  }
+  header .header-info .header-descr h1 {
+    font-size: 46px;
+  }
+  header .header-info .header-descr p {
+    margin-top: 30px;
+  }
+  main .about-me img {
+    width: 280px;
+    height: 280px;
+  }
+  main .price-list .container {
+    gap: 50px;
+  }
+  main .price-list .price-table {
+    max-width: 300px;
+  }
+  main .price-list .price-table .table-row .table-column:first-child {
+    flex: 0 0 65%;
+  }
+  main .price-list .price-table .table-row .table-column:last-child {
+    flex: 0 0 35%;
+  }
+  main .contacts .feedback-form .personal-data input {
+    width: 280px;
+  }
+  main .contacts .feedback-form textarea {
+    width: 280px;
+  }
+  main .contacts .feedback-form .checkbox-wrapper {
+    max-width: 278px;
+  }
+  main .contacts .feedback-form .submit .submit-btn {
+    font-size: 32px;
+  }
+  main .contacts .social-media {
+    gap: 30px;
+  }
+  main .contacts .social-media p {
+    font-size: 20px;
+  }
+  main .contacts .social-media .soc-meds {
+    gap: 20px;
+  }
+  main .contacts .social-media .soc-meds .soc-med {
+    gap: 15px;
+  }
+  main .contacts .social-media .soc-meds .soc-med a {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=main-media.css.map */

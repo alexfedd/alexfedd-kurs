@@ -1,0 +1,372 @@
+@media (max-width: 1439px) {
+    header {
+        .laptops {
+            right: calc(50% - (1194.88px / 1.12));
+            .notebook-second {
+                left: -220px;
+            }
+        }
+        .header-info {
+            gap: 91px;
+
+            .header-descr {
+                h1 {
+                    line-height: 100%;
+                }
+            }
+        }
+    }
+
+    main {
+        padding: 100px 0;
+        gap: 110px;
+
+        
+        .about-me {
+            .container {
+                gap: 50px;
+                flex-direction: column;
+                justify-content: unset;
+
+            }
+        }
+
+        .my-skills {
+            .container {
+                align-items: center;
+                gap: 75px;
+            }
+            .skills {
+                justify-content: center;
+            }
+        }
+
+        .price-list {
+            .price-table {
+                width: 803px;
+            }
+        }
+
+        .contacts {
+
+            .feedback-form {
+                .personal-data {
+                    input {
+                        width: 350px;
+                    }
+                }
+
+                textarea {
+                    width: 749px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    header {
+        .laptops {
+            .blue {
+                display: none;
+            }
+
+            .purple {
+                left: 0;
+            }
+            .cyan {
+                left: -50px;
+            }
+            right: calc(50% - (1194.88px / 1.5));
+            $laptop_width: 800px;
+            .notebook-second {
+                display: none;
+            }
+
+            .notebook-first {
+                width: $laptop_width;
+            }
+        }
+    }
+
+    main {
+
+        .about-me {
+            .my-photo {
+                &::before {
+                    bottom: -650px;
+                }
+            }
+        }
+
+        .price-list {
+            .price-table {
+                width: 653px;
+            }
+        }
+
+        .contacts {
+            .container {
+                gap: 70px;
+            }
+            .feedback-form {
+                .personal-data {
+                    input {
+                        width: 300px;
+                    }
+                }
+
+                textarea {
+                    width: 647px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        padding: 30px  0 376px;
+        .laptops {
+            $laptop_width: 576px;
+            right: calc(50% - (639px / 1.5));
+            .notebook-first {
+                width: $laptop_width;
+            }
+
+            .notebook-second {
+                display: block;
+                left: -140px;
+                width: $laptop_width * 0.8;
+            }
+            .blue {
+                display: block;
+            }
+        }
+        .header-info {
+            gap: 50px;
+            margin-top: 50px;
+
+            .header-descr {
+                h1 {
+                    font-size: 48px;
+                }
+
+                p {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    main {
+        padding: 80px 0 100px;
+        gap: 70px;
+        h2 {
+            font-size: 40px;
+        }
+        .about-me {
+            img {
+                width: 365px;
+                height: 365px;
+            }
+
+            .my-photo {
+                &::before {
+                    top: -100px;
+                    bottom: unset;
+                }
+            }
+        }
+
+        .my-skills {
+            .container {
+                gap: 40px;
+            }
+            .skills {
+                row-gap: 40px;
+
+                .skill-card {
+                    gap: 20px;
+                    h3 {
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+
+        .portfolio {
+            .container {
+                margin-top: 40px;
+            }
+        }
+
+        .price-list {
+            .container {
+                gap: 50px;
+            }
+
+            .big {
+                display: none;
+            }
+
+            .small {
+                left: -100px;
+                top: -200px;
+                width: 812.54px;
+                height: 796.29px;
+            }
+
+            .price-table {
+                width: 365px;
+
+                .table-row {
+                    .table-column {
+                        padding: 25px 10px;
+                        font-size: 16px;
+                    }
+    
+                    &:first-child {
+                        .table-column {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contacts {
+            .container {
+                gap: 50px;
+            }
+
+            .purple-blur {
+                top: 0;
+                left: 0;
+            }
+    
+            .feedback-form {
+                .personal-data {
+                    flex-direction: column;
+                    justify-content: unset;
+                    gap: 40px;
+    
+                    input {
+                        width: 362px;
+                    }
+                }
+
+                textarea {
+                    width: 362px;
+                }
+            }
+
+            .social-media {
+                p {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    header {
+        .laptops {
+            right: calc(50% - (639px / 1.3));
+            .notebook-second {
+                left: -100px;
+            }
+        }
+
+        .header-info {
+            margin-top: 50px;
+            gap: 40px;
+
+            .header-descr {
+                h1 {
+                    font-size: 46px;
+                }
+                p {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+
+    main {
+        .about-me {
+            img {
+                width: 280px;
+                height: 280px;
+            }
+        }
+
+        .price-list {
+            .container {
+                gap: 50px;
+            }
+
+            .price-table {
+                max-width: 300px;
+
+                .table-row {
+                    .table-column {
+
+                        &:first-child {
+                            flex: 0 0 65%;
+                        }
+
+                        &:last-child {
+                            flex: 0 0 35%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contacts {
+            .feedback-form {
+                .personal-data {
+                    input {
+                        width: 280px;
+                    }
+                }
+
+                textarea {
+                    width: 280px;
+                }
+
+                .checkbox-wrapper {
+                    max-width: 278px;
+                }
+
+                .submit {
+                    .submit-btn {
+                        font-size: 32px;
+                    }
+                }
+            }
+
+            .social-media {
+                gap: 30px;
+
+                p {
+                    font-size: 20px;
+                }
+
+                .soc-meds {
+                    gap: 20px;
+
+                    .soc-med {
+                        gap: 15px;
+
+                        a {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
